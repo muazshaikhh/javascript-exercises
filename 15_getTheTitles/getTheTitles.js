@@ -1,4 +1,10 @@
-const getTheTitles = function() {
+const getTheTitles = function(arr) {
+    let b = [];
+    for (let i = 0; i < arr.length; i++) {
+        let a = arr[i];
+        b.push(a.title)
+    }
+    return b
 
 };
 
